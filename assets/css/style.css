@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tab Menu */
+
+.tabmenu{
+    border: 1px solid rgb(21, 0, 128);
+}
+    .tab-links{
+        display: flex;
+        padding: 10px 10px;
+        justify-content: space-between;
+        
+    }
+    button{
+        width: 30%;
+        border: 1px solid gray;
+        font-weight: bold;
+    }
+
+
+.active-btn{
+    background-color: grey;
+    color: #fff;
+}
+.contents div{
+    text-align: center;
+}
+
+
+/* slider */
+
+.slider{
+    padding-top: 5rem;
+}
+
+.slider img{
+    width: 100%;
+}
+.slick-next{
+    right: 30px;
+}
+
+.slick-prev{
+    left: 30px;
+    z-index: 1;
+}
